@@ -1,0 +1,66 @@
+.incident-dashboard { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 32px; box-shadow: 0 2px 12px #0001; min-width: 400px; max-width: 100%; box-sizing: border-box; }
+.incident-dashboard h2 { margin-bottom: 16px; }
+.incident-dashboard table { width: 100%; border-collapse: collapse; }
+.incident-dashboard th, .incident-dashboard td { padding: 8px 12px; text-align: left; }
+.incident-dashboard tr { border-bottom: 1px solid #eee; }
+.incident-dashboard tr.resolved { background: #e8f5e9; }
+.incident-dashboard tr.in-progress { background: #fffde7; }
+.incident-dashboard tr.pending { background: #ffebee; }
+/* Added color coding for incident tables */
+.incidents-table-title.received {
+  color: #1976d2; /* Blue for Received */
+}
+.incidents-table-title.inprogress {
+  color: #ffa000; /* Amber for In Progress */
+}
+.incidents-table-title.done {
+  color: #388e3c; /* Green for Done */
+}
+
+/* Removed row color coding for incident tables */
+.incidents-table tr.received {
+  background-color: unset; /* Removed Light Blue for Received */
+}
+.incidents-table tr.inprogress {
+  background-color: unset; /* Removed Light Amber for In Progress */
+}
+.incidents-table tr.done {
+  background-color: unset; /* Removed Light Green for Done */
+}
+
+/* Added heading styles for incident statuses */
+.incidents-table-title.received {
+  background: #e3f2fd; /* Light Blue */
+  color: #1976d2; /* Blue */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 18px 0 6px 0;
+  padding: 8px 0;
+  border-radius: 6px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.incidents-table-title.inprogress {
+  background: #fff3e0; /* Light Amber */
+  color: #ffa000; /* Amber */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 18px 0 6px 0;
+  padding: 8px 0;
+  border-radius: 6px;
+  text-align: left;
+  padding-left: 8px;
+}
+
+.incidents-table-title.done {
+  background: #e8f5e9; /* Light Green */
+  color: #388e3c; /* Green */
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 18px 0 6px 0;
+  padding: 8px 0;
+  border-radius: 6px;
+  text-align: left;
+  padding-left: 8px;
+}

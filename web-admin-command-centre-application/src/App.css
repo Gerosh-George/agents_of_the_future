@@ -1,0 +1,161 @@
+/* Consistent container for all tab content */
+.dashboard-container {
+  width: 100%;
+  max-width: 1100px;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem 2rem;
+  box-sizing: border-box;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.admin-dashboard {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-header {
+  background: linear-gradient(90deg, #f5f7fa 70%, #e0e0e0 100%);
+  color: #222;
+  padding: 32px 0 16px 0;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 16px #0002;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard-header .logo-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+.logo-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 1px;
+}
+.uniform-section {
+  min-width: 100%;
+  max-width: 1280px;
+  min-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+.dashboard-header .dhristi-logo {
+  height: 64px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+.dashboard-tabs {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+.tab-btn {
+  background: #fff;
+  color: #1976d2;
+  border: 2px solid #1976d2;
+  border-radius: 8px 8px 0 0;
+  padding: 8px 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  outline: none;
+}
+.tab-btn.active, .tab-btn:hover {
+  background: #1976d2;
+  color: #fff;
+  border-bottom: 2px solid #f5f7fa;
+  z-index: 2;
+}
+.dashboard-subtitle {
+  font-size: 1.1rem;
+  margin-top: 4px;
+  opacity: 0.85;
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.dashboard-footer {
+  background: linear-gradient(90deg, #f5f7fa 70%, #e0e0e0 100%);
+  color: #222;
+  padding: 12px 0;
+  border-radius: 16px 16px 0 0;
+  margin-top: 32px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 -2px 8px #0001;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

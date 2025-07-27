@@ -1,0 +1,10 @@
+.quick-places-section { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 32px; box-shadow: 0 2px 12px #0001; min-width: 400px; max-width: 100%; box-sizing: border-box; }
+.quick-places-section h2 { margin-bottom: 16px; }
+.quick-places-form { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+.quick-places-form input { padding: 8px 12px; border: 1px solid #bbb; border-radius: 6px; font-size: 1rem; min-width: 120px; }
+.quick-places-form button { background: #1976d2; color: #fff; border: none; padding: 8px 20px; border-radius: 6px; font-size: 1rem; cursor: pointer; transition: background 0.2s; }
+.quick-places-form button:hover { background: #125ea2; }
+.quick-places-table { width: 100%; border-collapse: collapse; background: #fafafa; border-radius: 8px; overflow: hidden; }
+.quick-places-table th, .quick-places-table td { padding: 10px 14px; border-bottom: 1px solid #eee; text-align: left; }
+.quick-places-table th { background: #f5f7fa; font-weight: 600; }
+.quick-places-table tr:last-child td { border-bottom: none; }

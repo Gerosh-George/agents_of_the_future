@@ -1,0 +1,5 @@
+.anomaly-section { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 32px; box-shadow: 0 2px 12px #0001; min-width: 400px; max-width: 100%; box-sizing: border-box; }
+.anomaly-section h2 { margin-bottom: 16px; }
+.anomaly-list { display: flex; gap: 24px; flex-wrap: wrap; }
+.anomaly-card { background: #f3f3f3; border-radius: 8px; padding: 16px; min-width: 340px; }
+.anomaly-card video { margin-top: 8px; border-radius: 6px; box-shadow: 0 2px 8px #0002; }

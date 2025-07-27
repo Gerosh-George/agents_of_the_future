@@ -1,0 +1,10 @@
+.crowd-monitoring { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 32px; box-shadow: 0 2px 12px #0001; min-width: 400px; max-width: 100%; box-sizing: border-box; }
+.crowd-monitoring h2 { margin-bottom: 16px; }
+.zones { display: flex; gap: 16px; margin-bottom: 16px; }
+.zone-card { background: #f3f3f3; border-radius: 8px; padding: 16px; cursor: pointer; border: 2px solid #eee; min-width: 120px; transition: border 0.2s, box-shadow 0.2s; }
+.zone-card.critical { border: 2px solid #e53935; background: #ffebee; box-shadow: 0 0 8px #e5393533; }
+.zone-title { font-weight: bold; margin-bottom: 8px; }
+.zone-details { margin-bottom: 16px; background: #f9fbe7; padding: 12px; border-radius: 8px; }
+.future-prediction { background: #e3f2fd; padding: 12px; border-radius: 8px; }
+.plan-btn { background: #1976d2; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; margin-top: 8px; cursor: pointer; }
+.plan-action { color: #388e3c; margin-top: 8px; font-weight: bold; }
