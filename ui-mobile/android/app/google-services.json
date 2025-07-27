@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "39709458518",
+    "project_id": "project-drishti-hackathon",
+    "storage_bucket": "project-drishti-hackathon.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39709458518:android:52253aa5bee9044f743bf7",
+        "android_client_info": {
+          "package_name": "com.agenticAi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39709458518-cu0nc6bfmihkjich3vobocnlu6ls10ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiJScwBucHls4ntnVWHJgV8sMX6kAb4GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39709458518-cu0nc6bfmihkjich3vobocnlu6ls10ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39709458518:android:99247aed7241e322743bf7",
+        "android_client_info": {
+          "package_name": "com.agenticAi.crowd_management_agentic_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39709458518-cu0nc6bfmihkjich3vobocnlu6ls10ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "<<ADD UR API KEY>>"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39709458518-cu0nc6bfmihkjich3vobocnlu6ls10ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
