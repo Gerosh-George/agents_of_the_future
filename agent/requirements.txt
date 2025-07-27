@@ -1,0 +1,9 @@
+Flask
+geopy
+langchain
+python-dotenv
+SQLAlchemy
+firebase_admin
+googlemaps
+langchain-google-genai
+google-generativeai

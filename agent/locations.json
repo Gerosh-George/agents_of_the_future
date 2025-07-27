@@ -1,0 +1,24 @@
+{
+    "medical_units": [
+        {"latitude": 34.0522, "longitude": -118.2437},
+        {"latitude": 40.7128, "longitude": -74.0060},
+        {"latitude": 41.8781, "longitude": -87.6298},
+        {"latitude": 29.7604, "longitude": -95.3698}
+    ],
+    "police_booths": [
+        {"latitude": 34.0500, "longitude": -118.2500},
+        {"latitude": 40.7100, "longitude": -74.0100},
+        {"latitude": 41.8700, "longitude": -87.6300}
+    ],
+    "fire_safety_areas": [
+        {"latitude": 34.0600, "longitude": -118.2300},
+        {"latitude": 40.7200, "longitude": -73.9900},
+        {"latitude": 41.8800, "longitude": -87.6100}
+    ],
+    "support": [
+        {"latitude": 34.0550, "longitude": -118.2450},
+        {"latitude": 40.7150, "longitude": -74.0050},
+        {"latitude": 41.8750, "longitude": -87.6250},
+        {"latitude": 29.7550, "longitude": -95.3750}
+    ]
+}
